@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+/* Header css */
+.header-nav{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.header-list{
+    flex-grow: 1;
+    padding-left: 62px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family:'poppins';
+    list-style: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 58px;
+    color: #000;
+}
+.list li{
+    cursor: pointer;
+}
+.list li:hover{
+    color: #5955b3;
+    text-decoration: underline;
+}
+.logo,
+.list-item{
+    cursor: pointer;
+}
+.button1{
+    padding: 12px 24px;
+    background-color: #5955b3;
+    border: 2px solid #5955b3;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    align-self: flex-end;
+    margin-left: 400px;
+}
+.button1:hover{
+    font-weight: 900;
+    background-color: #fff;
+    color: #5955b3;
+}
+/* Hero Section */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+}
+.hero-section-left{
+    padding: 7%;
+    width: 60%;
+}
+.heading{
+    font-size: 60px;
+    font-family: "poppins";
+    font-style: normal;
+    line-height: 74px;
+    color: #3c2f60;
+}
+.heading span{
+    color: #5955b3;
+}
+.paragraph{
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 28px;
+    color: #828282;
+}
+.hero-section-left-button{
+    margin-top: 42px;
+    padding: 15px 28px;
+    background-color: #5955b3;
+    border: 2px solid #5955b3;
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    align-self: flex-end;
+}
+.hero-section-left-button:hover{
+    font-weight: 900;
+    background-color: #fff;
+    color: #5955b3;
+}
+.hero-section-right{
+    /* width: 40%; */
+}
+.hero-section-right img{
+    height: 450px;
+    width: 550px;
+    margin-right: 120px;
+    margin-bottom: 60px;
+    
+}
